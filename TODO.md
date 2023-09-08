@@ -18,7 +18,7 @@ Ogni volta che verrà aggiunta un'attività in agenda verrà inviato un messaggi
 
 ## Utenti attività
 
-> Alcune imposatzioni dovranno essere revisionate.\
+> Alcune impostazioni dovranno essere revisionate.\
 > Potrebbero essere aggiunte più impostazioni.\
 > Da definire meglio
 
