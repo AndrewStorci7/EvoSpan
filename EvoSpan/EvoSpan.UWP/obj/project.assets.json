@@ -668,8 +668,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Xamarin.Essentials": "1.7.0",
-          "Xamarin.Forms": "5.0.0.2196"
+          "Xamarin.Essentials": "1.8.0",
+          "Xamarin.Forms": "5.0.0.2612"
         },
         "compile": {
           "bin/placeholder/EvoSpan.dll": {}
@@ -1514,8 +1514,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Xamarin.Essentials": "1.7.0",
-          "Xamarin.Forms": "5.0.0.2196"
+          "Xamarin.Essentials": "1.8.0",
+          "Xamarin.Forms": "5.0.0.2612"
         },
         "compile": {
           "bin/placeholder/EvoSpan.dll": {}
@@ -2361,8 +2361,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Xamarin.Essentials": "1.7.0",
-          "Xamarin.Forms": "5.0.0.2196"
+          "Xamarin.Essentials": "1.8.0",
+          "Xamarin.Forms": "5.0.0.2612"
         },
         "compile": {
           "bin/placeholder/EvoSpan.dll": {}
@@ -3205,8 +3205,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Xamarin.Essentials": "1.7.0",
-          "Xamarin.Forms": "5.0.0.2196"
+          "Xamarin.Essentials": "1.8.0",
+          "Xamarin.Forms": "5.0.0.2612"
         },
         "compile": {
           "bin/placeholder/EvoSpan.dll": {}
@@ -4051,8 +4051,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Xamarin.Essentials": "1.7.0",
-          "Xamarin.Forms": "5.0.0.2196"
+          "Xamarin.Essentials": "1.8.0",
+          "Xamarin.Forms": "5.0.0.2612"
         },
         "compile": {
           "bin/placeholder/EvoSpan.dll": {}
@@ -4898,8 +4898,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Xamarin.Essentials": "1.7.0",
-          "Xamarin.Forms": "5.0.0.2196"
+          "Xamarin.Essentials": "1.8.0",
+          "Xamarin.Forms": "5.0.0.2612"
         },
         "compile": {
           "bin/placeholder/EvoSpan.dll": {}
@@ -5744,8 +5744,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Xamarin.Essentials": "1.7.0",
-          "Xamarin.Forms": "5.0.0.2196"
+          "Xamarin.Essentials": "1.8.0",
+          "Xamarin.Forms": "5.0.0.2612"
         },
         "compile": {
           "bin/placeholder/EvoSpan.dll": {}
@@ -6591,8 +6591,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Xamarin.Essentials": "1.7.0",
-          "Xamarin.Forms": "5.0.0.2196"
+          "Xamarin.Essentials": "1.8.0",
+          "Xamarin.Forms": "5.0.0.2612"
         },
         "compile": {
           "bin/placeholder/EvoSpan.dll": {}

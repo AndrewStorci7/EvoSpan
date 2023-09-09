@@ -7,19 +7,14 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace EvoSpan
+namespace EvoSpan.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Page1 : ContentPage
+    public partial class Settings : ContentPage
     {
-        public Page1()
+        public Settings()
         {
             InitializeComponent();
-        }
-
-        public void buttonClicked(object obj, System.EventArgs e)
-        {
-            DisplayAlert("Title", "Hello World", "OK");
         }
     }
 }

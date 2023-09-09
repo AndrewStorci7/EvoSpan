@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Shell xmlns="http://xamarin.com/schemas/2014/forms" 
        xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-       xmlns:local="clr-namespace:EvoSpan.Views"
+       xmlns:views="clr-namespace:EvoSpan.Views"
        Title="EvoSpan"
        x:Class="EvoSpan.AppShell">
 
@@ -30,8 +30,10 @@
     </Shell.Resources>
 
     <TabBar>
-        <ShellContent Title="About" Icon="icon_about.png" Route="AboutPage" ContentTemplate="{DataTemplate local:AboutPage}" />
-        <ShellContent Title="Browse" Icon="icon_feed.png" ContentTemplate="{DataTemplate local:ItemsPage}" />
+        <ShellContent Title="Home" Icon="icon_about.png" Route="HomePage" ContentTemplate="{DataTemplate views:HomePage}" />
+        <ShellContent Title="About" Icon="icon_feed.png" Route="AbouPage" ContentTemplate="{DataTemplate views:AboutPage}" />
+        <ShellContent Title="Activities" Icon="icon_feed.png" Route="Activities" ContentTemplate="{DataTemplate views:Activities}" />
+        <ShellContent Title="Settings" Icon="icon_about.png" Route="Settings" ContentTemplate="{DataTemplate views:Settings}" />
     </TabBar>
 
     <!--
@@ -39,7 +41,7 @@
         await Shell.Current.GoToAsync("//LoginPage");
     -->
     <TabBar>
-        <ShellContent Route="LoginPage" ContentTemplate="{DataTemplate local:LoginPage}" />
+        <ShellContent Route="LoginPage" ContentTemplate="{DataTemplate views:LoginPage}" />
     </TabBar>
 
 

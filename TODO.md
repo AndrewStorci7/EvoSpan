@@ -24,6 +24,7 @@ Ogni volta che verrà aggiunta un'attività in agenda verrà inviato un messaggi
 
 Quando si crea un nuovo utente (che corrisponde agli impiegati presenti in azienda) dovranno essere impostati le seguenti impstazioni:
 - **Nome Utente**: un nome identificativo
+- **Password**: servirà per accedere al gestionale sia dall'app mobile che da PC
 - **E-mail**
 - **Numero di telefono**
 - **Nome e Cognome**

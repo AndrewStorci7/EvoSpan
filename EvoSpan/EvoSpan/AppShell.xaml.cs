@@ -1,5 +1,4 @@
-﻿using EvoSpan.ViewModels;
-using EvoSpan.Views;
+﻿using EvoSpan.Views;
 using System;
 using System.Collections.Generic;
 using Xamarin.Forms;
@@ -11,8 +10,17 @@ namespace EvoSpan
         public AppShell()
         {
             InitializeComponent();
-            Routing.RegisterRoute(nameof(ItemDetailPage), typeof(ItemDetailPage));
-            Routing.RegisterRoute(nameof(NewItemPage), typeof(NewItemPage));
+            /// Home Content Page
+            Routing.RegisterRoute(nameof(HomePage), typeof(HomePage));
+
+            /// Add New Activity Content Page
+            Routing.RegisterRoute(nameof(AboutPage), typeof(AboutPage));
+
+            /// Browse You Active Activities Content Page
+            Routing.RegisterRoute(nameof(Activities), typeof(Activities));
+
+            /// Settings Content Page
+            Routing.RegisterRoute(nameof(Settings), typeof(Settings));
         }
 
     }

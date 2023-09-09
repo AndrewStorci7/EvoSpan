@@ -5,9 +5,9 @@
              xmlns:vm="clr-namespace:EvoSpan.ViewModels"
              Title="{Binding Title}">
     
-    <ContentPage.BindingContext>
+    <!--<ContentPage.BindingContext>
         <vm:AboutViewModel />
-    </ContentPage.BindingContext>
+    </ContentPage.BindingContext>-->
     
     <ContentPage.Resources>
         <ResourceDictionary>
