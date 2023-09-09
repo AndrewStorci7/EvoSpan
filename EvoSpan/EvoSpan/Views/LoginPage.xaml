@@ -9,6 +9,19 @@
     <ContentPage.Content>
         <StackLayout Padding="10,0,10,0" VerticalOptions="Center">
             <Button VerticalOptions="Center" Text="Login" Command="{Binding LoginCommand}"/>
+            <Image Width="200">
+                <Image.Source>
+                    <!-- To save significant application memory, set the DecodePixelWidth or  
+                         DecodePixelHeight of the BitmapImage value of the image source to the desired 
+                         height and width of the rendered image. If you don't do this, the application will 
+                         cache the image as though it were rendered as its normal size rather than just 
+                         the size that is displayed. -->
+                    <!-- Note: In order to preserve aspect ratio, only set either DecodePixelWidth
+                         or DecodePixelHeight but not both. -->
+                    <BitmapImage DecodePixelWidth="200"  
+                                 UriSource="..\Images\logos\logo_blue\it.png" />
+                </Image.Source>
+            </Image>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
