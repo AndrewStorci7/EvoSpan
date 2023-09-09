@@ -22,4 +22,4 @@ jobs:
       run: nuget restore ..\..\EvoSpan\EvoSpan.sln
 
     - name: Build
-      run: msbuild ..\..\EvoSpan\EvoSpan.Android\EvoSpan.Android.csproj /t:PackageForAndroid /p:Configuration=Debug
+      run: msbuild ..\..\EvoSpan\EvoSpan\EvoSpan.csproj /t:PackageForAndroid /p:Configuration=Debug

@@ -28,4 +28,4 @@ jobs:
       run: nuget restore ..\..\EvoSpan\EvoSpan.sln
 
     - name: Build
-      run: msbuild ..\..\EvoSpan\EvoSpan.IOS\EvoSpan.IOS.csproj /p:Configuration=Debug /p:Platform=iPhoneSimulator /t:Rebuild
+      run: msbuild ..\..\EvoSpan\EvoSpan\EvoSpan.csproj /p:Configuration=Debug /p:Platform=iPhoneSimulator /t:Rebuild
