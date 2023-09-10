@@ -1,4 +1,5 @@
-﻿using System;
+﻿using EvoSpan.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,8 +14,21 @@ namespace EvoSpan.Views
     {
         public LoginPage()
         {
+            var vm = new LoginViewModel();
+            this.BindingContext = vm;
+            vm.DisplayInvalidLoginPrompt += () => DisplayAlert("Error", "Invalid parameter", "OK");
+            
             InitializeComponent();
-            // this.BindingContext = new LoginViewModel();
+
+            Id.Completed += (object obj, EventArgs e) =>
+            {
+                Password.Focus();
+            };
+
+            Password.Completed += (object obj, EventArgs e) =>
+            {
+                vm.SubmitCommand.Execute(null);
+            };
         }
     }
 }

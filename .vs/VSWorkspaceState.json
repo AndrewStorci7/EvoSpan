@@ -2,8 +2,12 @@
   "ExpandedNodes": [
     "",
     "\\EvoSpan",
-    "\\EvoSpan\\EvoSpan"
+    "\\EvoSpan\\EvoSpan",
+    "\\EvoSpan\\EvoSpan.Android",
+    "\\EvoSpan\\EvoSpan\\Images",
+    "\\EvoSpan\\EvoSpan\\Images\\launcher",
+    "\\EvoSpan\\EvoSpan\\Views"
   ],
-  "SelectedNode": "\\TODO.md",
+  "SelectedNode": "\\EvoSpan\\EvoSpan.Android\\EvoSpan.Android.csproj",
   "PreviewInSolutionExplorer": false
 }

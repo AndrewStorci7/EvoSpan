@@ -7,6 +7,17 @@ using System.Text;
 
 namespace EvoSpan.Models
 {
+    /**
+     *  Name:
+     *      Internal Class User
+     * 
+     *  Description:
+     *      This class is used to save the data of the user accessing the application.
+     *      
+     *  Since:
+     *      2.23.9.10
+     *
+     */
     internal class User
     {
         // Name and Surname
@@ -80,13 +91,19 @@ namespace EvoSpan.Models
         }
 
         /**
-         * Generate Id:
-         * Generates the Unique Id with Name
-         * 
-         * @param string
-         * 
-         * @return string
-         */
+          * <summary>
+          * <para>
+          * Generate an <c>unique id</c> for the class User.
+          * It's created with the concatenation of the name and the surname, 
+          * if the id is already exists, an additional character (a number) is added 
+          * </para>
+          * </summary>
+          * <param name="name">list containing name and surname</param>
+          * <param name="usr">list of users</param>
+          * <returns>
+          * The unique Id for the User
+          * </returns>
+          */
         protected string generateId(List<string> name, List<User> usr)
         {
             // Sanitize strings
@@ -106,12 +123,16 @@ namespace EvoSpan.Models
         }
 
         /**
-         * Sanitize String:
-         * Replace all the character that are not allowed
-         * 
-         * @param string
-         * 
-         * @return string
+         * <summary>
+         * <para>
+         * Allows you to sanitize and adjust a string, removing special characters that are not accepted.
+         * Used only for <c>internal</c> purpose
+         * </para>
+         * </summary>
+         * <param name="str">string to sanitize</param>
+         * <returns>
+         * A string sanitized, with illegal characters replaced by <c>'_'</c>. 
+         * </returns>
          */
         protected string sanitize(string str)
         {

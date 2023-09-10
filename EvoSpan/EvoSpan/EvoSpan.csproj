@@ -38,6 +38,5 @@
   <ItemGroup>
     <Folder Include="assets\" />
     <Folder Include="Inc\" />
-    <Folder Include="ViewModels\" />
   </ItemGroup>
 </Project>

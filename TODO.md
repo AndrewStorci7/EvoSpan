@@ -1,5 +1,9 @@
 # TODO list
 
+> Versione 2.23.9.10 \
+> <code>(2) Millennio, (23) Anno, (9) Mese, (10) Giorno</code>
+
+
 > EvoSpan sarà coperto e vincola da una licenza proprietaria, per vietare il riutilizzo del codice sorgente.\
 > Può essere studiato ma non replicato!
 
@@ -38,9 +42,7 @@ Quando si crea un nuovo utente (che corrisponde agli impiegati presenti in azien
 
 Quando viene creato un utente, gli può essere assegnato un _**ruolo**_:
 - Admin
-- Co-admin
-- Product-Manager
-- Client-Manager
+- Co-Admin
 - Default
 
 ### Ruolo: Admin
@@ -62,5 +64,17 @@ Elenco delle funzionalità di aggiunta, elimina e modifica:
 Se il ruolo dell'utente è impostato su <code>co-admin</code>, allora l'utente potrà eseguire tutte le funzionalità dell'utente <code>admin</code>, tranne la modifica e la scelta del ruolo degli utenti. \
 L'utente <code>co-admin</code> potrà ***aggiungere*** e ***modificare*** un utente, ma non potrà scegliere il ruolo. Di default il ruolo dell'utente creato sarà <code>default</code>.
 
+### Ruolo: Default
 
+Se il ruolo dell'utente è impostato su <code>default</code>, allora l'utente potrà eseguire solo funzioni Aggiunta/Modifica/Eliminazione di:
+- Rapporti d'intervento
+- Ordini
+- Preventivi
+- ...
+
+# Fatture
+
+EvoSpan sarà anche in grado di creare le fatture con un look totalmente personalizzato. \
+Dal colore, allo stile del font ... dai nomi delle voci, agli spazi tra una tabella e un'altra. \
+All'installazione del software verrà chiesto di inserire il **nome dell'azienda** e il **logo**, questi due dati infatti verrano salvati per poi essere inseriti in fatture, documenti, modelli grafici ecc...
 

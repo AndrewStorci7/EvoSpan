@@ -10,6 +10,9 @@ namespace EvoSpan
         public AppShell()
         {
             InitializeComponent();
+            /// Login Content Page
+            Routing.RegisterRoute(nameof(LoginPage), typeof(LoginPage));
+
             /// Home Content Page
             Routing.RegisterRoute(nameof(HomePage), typeof(HomePage));
 

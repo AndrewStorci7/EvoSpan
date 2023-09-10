@@ -68,48 +68,72 @@
     <None Include="Entitlements.plist" />
     <None Include="Info.plist" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <AndroidResource Include="Resources\launcher\evospan_ln_blue\ios\Contents.json" />
+    <AndroidResource Include="Resources\launcher\evospan_ln_dpink\ios\Contents.json" />
+    <AndroidResource Include="Resources\launcher\evospan_ln_green\ios\Contents.json" />
+    <AndroidResource Include="Resources\launcher\evospan_ln_lblue\ios\Contents.json" />
+    <AndroidResource Include="Resources\launcher\evospan_ln_orange\ios\Contents.json" />
+    <AndroidResource Include="Resources\launcher\evospan_ln_pink\ios\Contents.json" />
+    <AndroidResource Include="Resources\launcher\evospan_ln_purple\ios\Contents.json" />
+    <AndroidResource Include="Resources\launcher\evospan_ln_red\ios\Contents.json" />
+    <AndroidResource Include="Resources\launcher\evospan_ln_yellow\ios\Contents.json" />
   </ItemGroup>
   <ItemGroup>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\AppIcon-20@2x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\AppIcon-20@2x~ipad1.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\AppIcon-20@3x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\AppIcon-20~ipad.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\AppIcon-29.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\AppIcon-29@2x1.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\AppIcon-29@2x~ipad.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\AppIcon-29@3x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\AppIcon-40@2x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\AppIcon-40@2x~ipad.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\AppIcon-40@3x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\AppIcon-40~ipad.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\AppIcon-83.5@2x~ipad.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\AppIcon@2x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\AppIcon@2x~ipad.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\AppIcon@3x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\AppIcon~ios-marketing.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\AppIcon~ipad.png">
+      <Visible>false</Visible>
+    </ImageAsset>
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon1024.png">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon180.png">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon167.png">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon152.png">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon120.png">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon87.png">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon80.png">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon76.png">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon60.png">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon58.png">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon40.png">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon29.png">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon20.png">
       <Visible>false</Visible>
     </ImageAsset>
     <BundleResource Include="Resources\icon_about.png" />
@@ -141,5 +165,734 @@
       <Project>{F49026FD-1C6A-411C-8DB1-A09C9B97FB7F}</Project>
       <Name>EvoSpan</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\logos\logo_blue\de.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\logos\logo_blue\es.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\logos\logo_blue\fn-blue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\logos\logo_blue\fr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\logos\logo_blue\it.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\logos\logo_blue\us.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\logos\logo_darkpink\de.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\logos\logo_darkpink\es.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\logos\logo_darkpink\fn-darkpink.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\logos\logo_darkpink\fr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\logos\logo_darkpink\it.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\logos\logo_darkpink\us.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\logos\logo_green\de.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\logos\logo_green\es.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\logos\logo_green\fn-green.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\logos\logo_green\fr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\logos\logo_green\it.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\logos\logo_green\us.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\logos\logo_lightblue\de.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\logos\logo_lightblue\es.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\logos\logo_lightblue\fn-lightblue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\logos\logo_lightblue\fr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\logos\logo_lightblue\it.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\logos\logo_lightblue\us.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\logos\logo_orange\de.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\logos\logo_orange\es.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\logos\logo_orange\fn-orange.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\logos\logo_orange\fr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\logos\logo_orange\it.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\logos\logo_orange\us.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\logos\logo_pink\de.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\logos\logo_pink\es.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\logos\logo_pink\fn-pink.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\logos\logo_pink\fr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\logos\logo_pink\it.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\logos\logo_pink\us.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\logos\logo_purple\de.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\logos\logo_purple\es.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\logos\logo_purple\fn-purple.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\logos\logo_purple\fr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\logos\logo_purple\it.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\logos\logo_purple\us.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\logos\logo_red\de.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\logos\logo_red\es.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\logos\logo_red\fn-red.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\logos\logo_red\fr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\logos\logo_red\it.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\logos\logo_red\us.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\logos\logo_yellow\de.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\logos\logo_yellow\es.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\logos\logo_yellow\fn-yellow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\logos\logo_yellow\fr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\logos\logo_yellow\it.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\logos\logo_yellow\us.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_blue\ios\AppIcon-20%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_blue\ios\AppIcon-20%402x~ipad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_blue\ios\AppIcon-20%403x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_blue\ios\AppIcon-20~ipad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_blue\ios\AppIcon-29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_blue\ios\AppIcon-29%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_blue\ios\AppIcon-29%402x~ipad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_blue\ios\AppIcon-29%403x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_blue\ios\AppIcon-29~ipad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_blue\ios\AppIcon-40%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_blue\ios\AppIcon-40%402x~ipad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_blue\ios\AppIcon-40%403x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_blue\ios\AppIcon-40~ipad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_blue\ios\AppIcon-60%402x~car.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_blue\ios\AppIcon-60%403x~car.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_blue\ios\AppIcon-83.5%402x~ipad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_blue\ios\AppIcon%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_blue\ios\AppIcon%402x~ipad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_blue\ios\AppIcon%403x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_blue\ios\AppIcon~ios-marketing.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_blue\ios\AppIcon~ipad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_dpink\ios\AppIcon-20%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_dpink\ios\AppIcon-20%402x~ipad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_dpink\ios\AppIcon-20%403x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_dpink\ios\AppIcon-20~ipad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_dpink\ios\AppIcon-29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_dpink\ios\AppIcon-29%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_dpink\ios\AppIcon-29%402x~ipad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_dpink\ios\AppIcon-29%403x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_dpink\ios\AppIcon-29~ipad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_dpink\ios\AppIcon-40%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_dpink\ios\AppIcon-40%402x~ipad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_dpink\ios\AppIcon-40%403x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_dpink\ios\AppIcon-40~ipad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_dpink\ios\AppIcon-60%402x~car.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_dpink\ios\AppIcon-60%403x~car.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_dpink\ios\AppIcon-83.5%402x~ipad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_dpink\ios\AppIcon%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_dpink\ios\AppIcon%402x~ipad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_dpink\ios\AppIcon%403x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_dpink\ios\AppIcon~ios-marketing.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_dpink\ios\AppIcon~ipad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_green\ios\AppIcon-20%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_green\ios\AppIcon-20%402x~ipad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_green\ios\AppIcon-20%403x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_green\ios\AppIcon-20~ipad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_green\ios\AppIcon-29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_green\ios\AppIcon-29%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_green\ios\AppIcon-29%402x~ipad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_green\ios\AppIcon-29%403x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_green\ios\AppIcon-29~ipad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_green\ios\AppIcon-40%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_green\ios\AppIcon-40%402x~ipad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_green\ios\AppIcon-40%403x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_green\ios\AppIcon-40~ipad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_green\ios\AppIcon-60%402x~car.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_green\ios\AppIcon-60%403x~car.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_green\ios\AppIcon-83.5%402x~ipad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_green\ios\AppIcon%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_green\ios\AppIcon%402x~ipad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_green\ios\AppIcon%403x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_green\ios\AppIcon~ios-marketing.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_green\ios\AppIcon~ipad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_lblue\ios\AppIcon-20%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_lblue\ios\AppIcon-20%402x~ipad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_lblue\ios\AppIcon-20%403x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_lblue\ios\AppIcon-20~ipad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_lblue\ios\AppIcon-29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_lblue\ios\AppIcon-29%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_lblue\ios\AppIcon-29%402x~ipad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_lblue\ios\AppIcon-29%403x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_lblue\ios\AppIcon-29~ipad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_lblue\ios\AppIcon-40%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_lblue\ios\AppIcon-40%402x~ipad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_lblue\ios\AppIcon-40%403x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_lblue\ios\AppIcon-40~ipad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_lblue\ios\AppIcon-60%402x~car.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_lblue\ios\AppIcon-60%403x~car.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_lblue\ios\AppIcon-83.5%402x~ipad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_lblue\ios\AppIcon%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_lblue\ios\AppIcon%402x~ipad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_lblue\ios\AppIcon%403x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_lblue\ios\AppIcon~ios-marketing.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_lblue\ios\AppIcon~ipad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_orange\ios\AppIcon-20%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_orange\ios\AppIcon-20%402x~ipad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_orange\ios\AppIcon-20%403x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_orange\ios\AppIcon-20~ipad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_orange\ios\AppIcon-29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_orange\ios\AppIcon-29%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_orange\ios\AppIcon-29%402x~ipad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_orange\ios\AppIcon-29%403x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_orange\ios\AppIcon-29~ipad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_orange\ios\AppIcon-40%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_orange\ios\AppIcon-40%402x~ipad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_orange\ios\AppIcon-40%403x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_orange\ios\AppIcon-40~ipad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_orange\ios\AppIcon-60%402x~car.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_orange\ios\AppIcon-60%403x~car.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_orange\ios\AppIcon-83.5%402x~ipad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_orange\ios\AppIcon%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_orange\ios\AppIcon%402x~ipad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_orange\ios\AppIcon%403x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_orange\ios\AppIcon~ios-marketing.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_orange\ios\AppIcon~ipad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_pink\ios\AppIcon-20%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_pink\ios\AppIcon-20%402x~ipad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_pink\ios\AppIcon-20%403x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_pink\ios\AppIcon-20~ipad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_pink\ios\AppIcon-29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_pink\ios\AppIcon-29%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_pink\ios\AppIcon-29%402x~ipad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_pink\ios\AppIcon-29%403x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_pink\ios\AppIcon-29~ipad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_pink\ios\AppIcon-40%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_pink\ios\AppIcon-40%402x~ipad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_pink\ios\AppIcon-40%403x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_pink\ios\AppIcon-40~ipad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_pink\ios\AppIcon-60%402x~car.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_pink\ios\AppIcon-60%403x~car.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_pink\ios\AppIcon-83.5%402x~ipad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_pink\ios\AppIcon%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_pink\ios\AppIcon%402x~ipad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_pink\ios\AppIcon%403x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_pink\ios\AppIcon~ios-marketing.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_pink\ios\AppIcon~ipad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_purple\ios\AppIcon-20%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_purple\ios\AppIcon-20%402x~ipad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_purple\ios\AppIcon-20%403x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_purple\ios\AppIcon-20~ipad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_purple\ios\AppIcon-29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_purple\ios\AppIcon-29%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_purple\ios\AppIcon-29%402x~ipad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_purple\ios\AppIcon-29%403x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_purple\ios\AppIcon-29~ipad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_purple\ios\AppIcon-40%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_purple\ios\AppIcon-40%402x~ipad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_purple\ios\AppIcon-40%403x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_purple\ios\AppIcon-40~ipad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_purple\ios\AppIcon-60%402x~car.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_purple\ios\AppIcon-60%403x~car.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_purple\ios\AppIcon-83.5%402x~ipad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_purple\ios\AppIcon%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_purple\ios\AppIcon%402x~ipad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_purple\ios\AppIcon%403x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_purple\ios\AppIcon~ios-marketing.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_purple\ios\AppIcon~ipad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_red\ios\AppIcon-20%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_red\ios\AppIcon-20%402x~ipad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_red\ios\AppIcon-20%403x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_red\ios\AppIcon-20~ipad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_red\ios\AppIcon-29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_red\ios\AppIcon-29%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_red\ios\AppIcon-29%402x~ipad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_red\ios\AppIcon-29%403x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_red\ios\AppIcon-29~ipad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_red\ios\AppIcon-40%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_red\ios\AppIcon-40%402x~ipad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_red\ios\AppIcon-40%403x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_red\ios\AppIcon-40~ipad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_red\ios\AppIcon-60%402x~car.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_red\ios\AppIcon-60%403x~car.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_red\ios\AppIcon-83.5%402x~ipad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_red\ios\AppIcon%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_red\ios\AppIcon%402x~ipad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_red\ios\AppIcon%403x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_red\ios\AppIcon~ios-marketing.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_red\ios\AppIcon~ipad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_yellow\ios\AppIcon-20%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_yellow\ios\AppIcon-20%402x~ipad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_yellow\ios\AppIcon-20%403x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_yellow\ios\AppIcon-20~ipad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_yellow\ios\AppIcon-29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_yellow\ios\AppIcon-29%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_yellow\ios\AppIcon-29%402x~ipad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_yellow\ios\AppIcon-29%403x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_yellow\ios\AppIcon-29~ipad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_yellow\ios\AppIcon-40%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_yellow\ios\AppIcon-40%402x~ipad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_yellow\ios\AppIcon-40%403x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_yellow\ios\AppIcon-40~ipad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_yellow\ios\AppIcon-60%402x~car.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_yellow\ios\AppIcon-60%403x~car.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_yellow\ios\AppIcon-83.5%402x~ipad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_yellow\ios\AppIcon%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_yellow\ios\AppIcon%402x~ipad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_yellow\ios\AppIcon%403x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_yellow\ios\AppIcon~ios-marketing.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\launcher\evospan_ln_yellow\ios\AppIcon~ipad.png" />
   </ItemGroup>
 </Project>

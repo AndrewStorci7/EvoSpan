@@ -7,21 +7,42 @@
              x:Class="EvoSpan.Views.LoginPage"
              Shell.NavBarIsVisible="False">
     <ContentPage.Content>
-        <StackLayout Padding="10,0,10,0" VerticalOptions="Center">
-            <Button VerticalOptions="Center" Text="Login" Command="{Binding LoginCommand}"/>
-            <Image Width="200">
-                <Image.Source>
-                    <!-- To save significant application memory, set the DecodePixelWidth or  
-                         DecodePixelHeight of the BitmapImage value of the image source to the desired 
-                         height and width of the rendered image. If you don't do this, the application will 
-                         cache the image as though it were rendered as its normal size rather than just 
-                         the size that is displayed. -->
-                    <!-- Note: In order to preserve aspect ratio, only set either DecodePixelWidth
-                         or DecodePixelHeight but not both. -->
-                    <BitmapImage DecodePixelWidth="200"  
-                                 UriSource="..\Images\logos\logo_blue\it.png" />
-                </Image.Source>
-            </Image>
+        <StackLayout Orientation="Vertical"
+                     VerticalOptions="Center"
+                     Padding="30"
+                     Spacing="0"
+                     BackgroundColor="#f8fcfc" >
+            <BoxView HeightRequest="10" />
+            <Image HorizontalOptions="Center" 
+                   WidthRequest="600"
+                   Source="blue/usblue.png" />
+            <Frame BackgroundColor="#f8fcfc"
+                   HasShadow="False" >
+                <StackLayout Orientation="Vertical"
+                             Spacing="10" >
+                    <Entry x:Name="Id"
+                           Text="{Binding Id}"
+                           Placeholder="Username"
+                           PlaceholderColor="Gray"
+                           HeightRequest="40"
+                           Keyboard="Text"
+                           TextColor="Black" />
+                    <Entry x:Name="Password"
+                           Text="{Binding Password}"
+                           Placeholder="Password"
+                           PlaceholderColor="Gray"
+                           HeightRequest="40"
+                           IsPassword="True"
+                           TextColor="Black" />
+                </StackLayout>
+            </Frame>
+            <Button Command="{Binding SubmitCommand}"
+                    Text="Login"
+                    BackgroundColor="#196cb7"
+                    TextColor="#f8fbfc"
+                    FontAttributes="Bold"
+                    FontSize="Large"
+                    HorizontalOptions="FillAndExpand" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
