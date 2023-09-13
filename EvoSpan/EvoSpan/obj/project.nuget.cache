@@ -1,12 +1,19 @@
 {
   "version": 2,
-  "dgSpecHash": "C+4Z9o92chZO5NSS15QpJDFif52D18jTDRFddYzZtdSLUpW4uW/vlwzNKfV7CEX1DQ9lmnvqJsAvqgBsYVvSBw==",
+  "dgSpecHash": "Lue2c7m4JvFdUWJPxwoH9GwmFECKUUzZlKtxDMAySkZGx0bDmkNYFruzOUzlZVME44MGEaSzdhEePatu9hjBIg==",
   "success": true,
   "projectFilePath": "C:\\Users\\sandr_ft5c0vu\\Desktop\\EvoSpan\\EvoSpan\\EvoSpan\\EvoSpan.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\sandr_ft5c0vu\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.1\\communitytoolkit.mvvm.8.2.1.nupkg.sha512",
+    "C:\\Users\\sandr_ft5c0vu\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",
     "C:\\Users\\sandr_ft5c0vu\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\sandr_ft5c0vu\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\sandr_ft5c0vu\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\sandr_ft5c0vu\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
+    "C:\\Users\\sandr_ft5c0vu\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
     "C:\\Users\\sandr_ft5c0vu\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\sandr_ft5c0vu\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\sandr_ft5c0vu\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\sandr_ft5c0vu\\.nuget\\packages\\xamarin.essentials\\1.8.0\\xamarin.essentials.1.8.0.nupkg.sha512",
     "C:\\Users\\sandr_ft5c0vu\\.nuget\\packages\\xamarin.forms\\5.0.0.2612\\xamarin.forms.5.0.0.2612.nupkg.sha512"
   ],

@@ -14,6 +14,12 @@ Le principali caratteristiche di **EvoSpan** sono:
 - Professionale
 - Adatto a tutti
 
+### Lista dei siti di documentazione:
+- Documentazione ufficiale di [Xamarin.Forms (.NET MAUI)](https://learn.microsoft.com/it-it/xamarin/xamarin-forms/user-interface/boxview)
+- Documentazione di [SkiaSharp (per grafica 2d avanzata)](https://learn.microsoft.com/it-it/xamarin/xamarin-forms/user-interface/graphics/skiasharp/)
+- [Translate extension using geolocalization](https://learn.microsoft.com/en-us/xamarin/community-toolkit/extensions/translateextension)
+- Video YouTube [freeCodeCamping.org](https://www.youtube.com/watch?v=n3tA3Ku65_8)
+
 # Portabilità
 
 La caratteristica che considero più importante è la **portabilità**, poiché potrà essere installato su computer Windows 10/11, Linux e MacOS.\

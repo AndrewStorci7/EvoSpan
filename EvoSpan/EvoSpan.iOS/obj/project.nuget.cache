@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "tU+UQabLpJWdGxnsp1Mvcx2bLp704xXO67oYUv2cloO17GXMdE3EPpeOFrbPJrKokwaNFJ/VB9CAS2i3vwsVcg==",
+  "dgSpecHash": "C26uf9kWTUSBXLq6A2AWXrPwOuZvKgJ5luD9W1tm9CCYzUfcxFsFNCeE2rFGvCswVeUVyf24kuj9zZvFMIBnjA==",
   "success": true,
   "projectFilePath": "C:\\Users\\sandr_ft5c0vu\\Desktop\\EvoSpan\\EvoSpan\\EvoSpan.iOS\\EvoSpan.iOS.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\sandr_ft5c0vu\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.1\\communitytoolkit.mvvm.8.2.1.nupkg.sha512",
+    "C:\\Users\\sandr_ft5c0vu\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "C:\\Users\\sandr_ft5c0vu\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\sandr_ft5c0vu\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\sandr_ft5c0vu\\.nuget\\packages\\xamarin.essentials\\1.8.0\\xamarin.essentials.1.8.0.nupkg.sha512",
     "C:\\Users\\sandr_ft5c0vu\\.nuget\\packages\\xamarin.forms\\5.0.0.2612\\xamarin.forms.5.0.0.2612.nupkg.sha512"
   ],

@@ -12,23 +12,9 @@ namespace EvoSpan.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class LoginPage : ContentPage
     {
-        public LoginPage()
+        public void ShowPassword(object obj, EventArgs args)
         {
-            var vm = new LoginViewModel();
-            this.BindingContext = vm;
-            vm.DisplayInvalidLoginPrompt += () => DisplayAlert("Error", "Invalid parameter", "OK");
-            
-            InitializeComponent();
-
-            Id.Completed += (object obj, EventArgs e) =>
-            {
-                Password.Focus();
-            };
-
-            Password.Completed += (object obj, EventArgs e) =>
-            {
-                vm.SubmitCommand.Execute(null);
-            };
+            /// TODO
         }
     }
 }

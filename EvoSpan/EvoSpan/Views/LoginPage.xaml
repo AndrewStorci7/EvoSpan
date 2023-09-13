@@ -6,43 +6,154 @@
              mc:Ignorable="d"
              x:Class="EvoSpan.Views.LoginPage"
              Shell.NavBarIsVisible="False">
+
+    <!-- <ContentPage.Content>
+        <StackLayout Orientation="Vertical"
+                     Spacing="25"
+                     Padding="30, 0"
+                     VerticalOptions="Center">
+            <Image HorizontalOptions="Center"
+                   Source="usblue.png"
+                   HeightRequest="500"
+                   WidthRequest="500"/>
+            <StackLayout Orientation="Vertical">
+                <Label Text="Welcome" FontSize="28" TextColor="White" />
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>-->
+
+
+
     <ContentPage.Content>
         <StackLayout Orientation="Vertical"
-                     VerticalOptions="Center"
-                     Padding="30"
-                     Spacing="0"
+                     VerticalOptions="FillAndExpand"
+                     Padding="40, 80, 40, 40"
+                     Spacing="30"
                      BackgroundColor="#f8fcfc" >
-            <BoxView HeightRequest="10" />
+            <BoxView Background="#f8fcfc" 
+                     Color="#f8fcfc" />
             <Image HorizontalOptions="Center" 
-                   WidthRequest="600"
-                   Source="blue/usblue.png" />
-            <Frame BackgroundColor="#f8fcfc"
-                   HasShadow="False" >
-                <StackLayout Orientation="Vertical"
-                             Spacing="10" >
-                    <Entry x:Name="Id"
-                           Text="{Binding Id}"
-                           Placeholder="Username"
-                           PlaceholderColor="Gray"
-                           HeightRequest="40"
-                           Keyboard="Text"
-                           TextColor="Black" />
-                    <Entry x:Name="Password"
-                           Text="{Binding Password}"
-                           Placeholder="Password"
-                           PlaceholderColor="Gray"
-                           HeightRequest="40"
-                           IsPassword="True"
-                           TextColor="Black" />
+                   Source="usblue.png" 
+                   WidthRequest="500"
+                   Margin="-60, -30, -60, -30"
+                   />
+            <StackLayout Orientation="Vertical"
+                         Spacing="10">
+                <StackLayout Orientation="Horizontal"
+                             Padding="0">
+                    <Frame HasShadow="True" 
+                           HeightRequest="20" 
+                           WidthRequest="20" 
+                           CornerRadius="28" 
+                           Padding="10" 
+                           Margin="0">
+                        <Image Source="icons8user64.png" />
+                    </Frame>
+                    <Frame CornerRadius="15" 
+                           Margin="0"
+                           Padding="10, 0, 0, -2"
+                           HasShadow="True" 
+                           HorizontalOptions="FillAndExpand"
+                           HeightRequest="25" >
+                        <Entry x:Name="Id"
+                               Text="{Binding Id}"
+                               VerticalOptions="Center"
+                               Margin="0"
+                               Placeholder="Username"
+                               PlaceholderColor="Gray"
+                               Keyboard="Text"
+                               TextColor="Black" />
+                    </Frame>
                 </StackLayout>
-            </Frame>
-            <Button Command="{Binding SubmitCommand}"
+                <StackLayout Orientation="Horizontal"
+                                Padding="0">
+                    <Frame HasShadow="True" 
+                           HeightRequest="20" 
+                           WidthRequest="20" 
+                           CornerRadius="28" 
+                           Padding="10" 
+                           Margin="0">
+                        <Image Source="icons8lucchetto.gif"
+                               IsAnimationPlaying="False" >
+                        </Image>
+                    </Frame>
+                    <Frame CornerRadius="15" 
+                           Margin="0"
+                           Padding="10, 0, 0, -2"
+                           HasShadow="True" 
+                           HorizontalOptions="FillAndExpand"
+                           HeightRequest="25" >
+                        <Entry x:Name="Password"
+                               Text="{Binding Password}"
+                               Placeholder="Password"
+                               PlaceholderColor="Gray"
+                               HeightRequest="40"
+                               IsPassword="True"
+                               TextColor="Black" />
+                    </Frame>
+                    <Frame CornerRadius="15"
+                           BorderColor="#f8fcfc"
+                           Margin="0"
+                           HorizontalOptions="End">
+                        <Image Source="icons8hidepw.png"
+                               WidthRequest="20"
+                               HeightRequest="20"
+                               Margin="-10">
+                            <Image.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="ShowPassword" 
+                                                      NumberOfTapsRequired="1"/>
+                            </Image.GestureRecognizers>
+                        </Image>
+                    </Frame>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal"
+                             Padding="0" >
+                    <Frame HasShadow="True" 
+                           HeightRequest="20" 
+                           WidthRequest="20" 
+                           CornerRadius="28" 
+                           Padding="10" 
+                           Margin="0">
+                        <Image Source="icons8cms96.gif" />
+                    </Frame>
+                    <Frame CornerRadius="15" 
+                           Margin="0"
+                           Padding="10, 0, 0, -2"
+                           HasShadow="True" 
+                           HorizontalOptions="FillAndExpand"
+                           HeightRequest="25" >
+                        <Entry x:Name="Managment"
+                               Text="{Binding Managment}"
+                               Placeholder="Gestionale"
+                               PlaceholderColor="Gray"
+                               HeightRequest="40"
+                               Keyboard="Text"
+                               TextColor="Black" />
+                    </Frame>
+                </StackLayout>
+                <StackLayout Orientation="Vertical">
+                    <CheckBox IsChecked="False"/>
+                    <Label Text="Remember me" />
+                </StackLayout>
+            </StackLayout>
+            <Button Command="{Binding LoginCommand}"
                     Text="Login"
+                    CornerRadius="20"
+                    WidthRequest="150"
+                    HorizontalOptions="Center"
                     BackgroundColor="#196cb7"
                     TextColor="#f8fbfc"
                     FontAttributes="Bold"
                     FontSize="Large"
-                    HorizontalOptions="FillAndExpand" />
+                     />
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Can't find your management id ?" 
+                       TextColor="Gray" 
+                       FontSize="12" />
+                <Label Text="Look at the guide" 
+                       TextColor="#50b3f2" 
+                       FontSize="12" />
+            </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

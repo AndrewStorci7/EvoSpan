@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "is8Qti0xQ5P/ROo8cfBt/v+Z7W9PDyHgsJvcH83Sscop5VFx/MwZ/qidndNWH9Pra14WxvV4uQsRuCneZxzbHA==",
+  "dgSpecHash": "NY65/HdonW4Y1Tm1fwi2jW2RdKD5C2OoOBeyvpxqaDbLhjgSzyhOKivNctNjEMlDJksuAXxHQAMJYluYMvEcig==",
   "success": true,
   "projectFilePath": "C:\\Users\\sandr_ft5c0vu\\Desktop\\EvoSpan\\EvoSpan\\EvoSpan.Android\\EvoSpan.Android.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\sandr_ft5c0vu\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.1\\communitytoolkit.mvvm.8.2.1.nupkg.sha512",
+    "C:\\Users\\sandr_ft5c0vu\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "C:\\Users\\sandr_ft5c0vu\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\sandr_ft5c0vu\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\sandr_ft5c0vu\\.nuget\\packages\\xamarin.androidx.activity\\1.6.1\\xamarin.androidx.activity.1.6.1.nupkg.sha512",
     "C:\\Users\\sandr_ft5c0vu\\.nuget\\packages\\xamarin.androidx.annotation\\1.6.0.1\\xamarin.androidx.annotation.1.6.0.1.nupkg.sha512",
     "C:\\Users\\sandr_ft5c0vu\\.nuget\\packages\\xamarin.androidx.annotation.experimental\\1.3.0.3\\xamarin.androidx.annotation.experimental.1.3.0.3.nupkg.sha512",
