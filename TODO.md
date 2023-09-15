@@ -84,3 +84,16 @@ EvoSpan sarà anche in grado di creare le fatture con un look totalmente persona
 Dal colore, allo stile del font ... dai nomi delle voci, agli spazi tra una tabella e un'altra. \
 All'installazione del software verrà chiesto di inserire il **nome dell'azienda** e il **logo**, questi due dati infatti verrano salvati per poi essere inseriti in fatture, documenti, modelli grafici ecc...
 
+# Promemoria calendario
+
+- [ ] Completato
+
+EvoSpan avrà anche un calendario dove si potranno vedere tutti gli appuntamenti/eventi/ecc... presi con i clienti, in più gli/l' utente/i che saranno coinvolti nell'appuntamento presente nel calendario verranno notificati sull'applicazione mobile.
+
+- Decidere se far scegliere all'utente quando essere notificato:
+    - Il giorno prima;
+    - 5 minuti prima;
+    - Una settimana prima;
+    - ...
+
+# 
