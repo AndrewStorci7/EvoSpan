@@ -1,6 +1,6 @@
 # TODO list
 
-> Versione 2.23.9.10 \
+> Versione 2.23.9.18 \
 > <code>(2) Millennio, (23) Anno, (9) Mese, (10) Giorno</code>
 
 
