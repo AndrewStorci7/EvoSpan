@@ -28,6 +28,8 @@ Ogni volta che verrà aggiunta un'attività in agenda verrà inviato un messaggi
 
 # Utenti attività
 
+- [ ] Completato
+
 > Alcune impostazioni dovranno essere revisionate.\
 > Potrebbero essere aggiunte più impostazioni.\
 > Da definire meglio
@@ -80,6 +82,8 @@ Se il ruolo dell'utente è impostato su <code>default</code>, allora l'utente po
 
 # Fatture
 
+- [ ] Completato
+
 EvoSpan sarà anche in grado di creare le fatture con un look totalmente personalizzato. \
 Dal colore, allo stile del font ... dai nomi delle voci, agli spazi tra una tabella e un'altra. \
 All'installazione del software verrà chiesto di inserire il **nome dell'azienda** e il **logo**, questi due dati infatti verrano salvati per poi essere inseriti in fatture, documenti, modelli grafici ecc...
@@ -96,4 +100,28 @@ EvoSpan avrà anche un calendario dove si potranno vedere tutti gli appuntamenti
     - Una settimana prima;
     - ...
 
-# 
+# Magazzino
+
+- [ ] Completato
+
+All'interno di EvoSPan sarà presente un magazzino dove poter inserire i prodotti:
+- Nome prodotto
+- Codice univoco
+- Fornitore
+- Prezzo a listino
+- Prezzo di vendita
+- (se presente) Anni di Garanzia
+
+Oltre ai prodotti, si possono anche inserire i servizi:
+- Nome servizio
+- Codice univoco
+- Utenti che applicano questo servizio
+- Prezzo per unità:
+    - Ore
+    - Pezzi
+    - Minuti
+    - ...
+
+> I prezzi per i servizi possono anche essere omessi poiché verrà calcolato \
+> in base al costo per ora dall'utente inserito (se presente).
+
