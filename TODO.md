@@ -80,6 +80,22 @@ Se il ruolo dell'utente è impostato su <code>default</code>, allora l'utente po
 - Preventivi
 - ...
 
+## Attività
+
+- [ ] Completato
+
+Un utente, in base al suo ruolo, potrà eseguire varie funzioni sia **online** che **offline**. \
+Per evitare le collisioni che potrebbero avvenire tra un inserimento offline e uno online, le attività saranno esclusivamente accessibili all'utente a cui è stata assegnata l'attività. \
+Nel caso in cui un'attività è assegnata a più utenti
+
+Dalle attività si potranno generare:
+- Preventivi
+- Ordini
+- Rapporti d'intervento
+- Fatture
+
+Tutti i 
+
 # Fatture
 
 - [ ] Completato
